@@ -1,0 +1,6 @@
+ /* Custom styles for small form */
+ .small-form .form-control,
+ .small-form .btn {
+   padding: 0.25rem 0.5rem;
+   font-size: 0.9rem;
+ }
