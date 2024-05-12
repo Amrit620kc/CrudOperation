@@ -22,6 +22,7 @@ def add(request):
         data=Student(first_name=firstname, last_name=lastname, roll=roll, phone=phone, email=email, address=address)
         data.save()
         messages.success(request,"successfully sent!")
+        return redirect('home')
     return render(request, "home/add.html")
 
 def delete(request,id):
